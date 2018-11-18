@@ -1,0 +1,7 @@
+{% extends 'layouts/default.html' %}
+
+{% block body%}
+    {# <h1>Welcome to my Templated Home</h1> #}
+    <h1>Welcome to my New Home</h1>
+    <h1>{{ pluralise(posts|length,'post')}}</h1>
+{% endblock %}
